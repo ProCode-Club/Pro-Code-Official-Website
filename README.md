@@ -23,7 +23,7 @@
 ## HTML Style Web Page Rules
 ### The Website Colors
 
-![000000](https://via.placeholder.com/15/000000/000000.png)Black: "black" ![f03c15](https://via.placeholder.com/15/f03c15/f03c15.png)Red: "red" ![2eafff](https://via.placeholder.com/15/2eafff/2eafff.png)Sky Blue: "#2eafff" ![00eb00](https://via.placeholder.com/15/00eb00/00eb00.png)Limegreen: "#00eb00"
+Black: "black" Red: "red" Sky Blue: "#2eafff" Limegreen: "#00eb00"
 
 ### Use The Following Rules For Styling 
 
@@ -36,6 +36,8 @@
 ```
 <span style="color: #2eafff;">Text To Color</span>
 ```
+
+> 
 
 > For Hyperlinks
 ```
