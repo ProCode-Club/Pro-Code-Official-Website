@@ -23,7 +23,7 @@
 ## HTML Style Web Page Rules
 ### The Website Colors
 
-Black: "black" Red: "red" Sky Blue: "#2eafff" Limegreen: "#00eb00"
+Black: "black" Red: "red" Sky Blue: "#2eafff" Limegreen: "#00eb00" White: "white"
 
 ### Use The Following Rules For Styling 
 
