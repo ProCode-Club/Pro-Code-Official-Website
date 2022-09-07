@@ -2,23 +2,12 @@
 
 |                           Topics                           |                     Subcategories                    |
 |------------------------------------------------------------|------------------------------------------------------|
-|  [Assigned Pages](#here-are-the-following-assigned-pages)  |  [Site Colors](#the-website-colors)                  |
-|  [Style Rules](#html-style-web-page-rules)                 |  [Style Rules](#use-the-following-rules-for-styling) |
-|  [Scripts](#scripts)                                       |  [Banner Element](#banner)                           |
+|  [Style Rules](#html-style-web-page-rules)                 |  [Site Colors](#the-website-colors)                  |
+|  [HTML Template](#html-template)                           |  [Style Rules](#use-the-following-rules-for-styling) |
+|  [Resources](#resources)                                   |  [Banner Element](#banner)                           |
 |                                                            |  [Navbar Element](#navigation)                       |
 |                                                            |  [Card Element](#cards)                              |
 |                                                            |  [Individual Card Elements](#individual-card-elements)|
-
-## Here are the following Assigned Pages
-
-| Jordan Wallace | Andrew Zheng | Rafael Munguia | Antoine Penagunda | Oliver Szczepanski |
-| -------------- | ------------ | -------------- | ----------------- | ------------------ |
-| Index Page     | Andrew.html  | Rafael.html    | Antoine.html      | Oliver.html        |
-| Projects Page  |
-| Members Page   |
-| Who Are We?    |
-| What We Do     |
-| Jordan.html    |
 
 ## HTML Style Web Page Rules
 ### The Website Colors
@@ -142,10 +131,43 @@ Black: "black" Red: "red" Sky Blue: "#2eafff" Limegreen: "#00eb00" White: "white
 <div class="card-item">Card Item</div>
 ```
 
-## Scripts
-|   HTML   |   CSS   |
-|----------|---------|
-|  index   |  styles |
-|  members |
-| projects |
-|  Jordan  |
+## HTML Template
+> When creating your html file copy (Ctrl+C) and paste (Ctrl+V) this template
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../images/favicon.ico">
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+  <title>Pro-Code <Put Your Name Here></title>
+</head>
+
+<body>
+  <nav class="nav">
+    <a href="../index.html" class="nav-link">
+      Home
+    </a>
+    <a href="../members.html" class="nav-link">
+      Members
+    </a>
+    <a href="../projects.html" class="nav-link">
+      Projects
+    </a>
+  </nav>
+
+  <div>
+    <h1><Put Your Name Here></h1>
+  </div>
+</body>
+
+</html>
+```
+ 
+## Resources
+1. [W3Schools](https://www.w3schools.com)
+2. [Free Code Camp](https://www.freecodecamp.org)
+3. [MDN](https://developer.mozilla.org)
+4. [Stack Overflow](https://stackoverflow.com)
