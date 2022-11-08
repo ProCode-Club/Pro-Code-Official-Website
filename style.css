@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+table {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin: 0 auto;
+  font-size: 1.9em;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 1px 2px 2px rgba(54, 54, 54, 0.7);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 0.5px solid black;
+  box-shadow: 0px 1px 4px rgba(73, 73, 76, 0.4);
+}
+.nav-link {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: #2eafff;
+  text-align: center;
+  font-size: 2.5em;
+  transition: all 300ms ease-in-out;
+}
+.nav-link:hover {
+  background: rgba(107, 107, 107, 0.4);
+  color: white;
+}
+
+.card {
+  display: block;
+  width: 30%;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px rgba(107, 107, 107, 0.4);
+  transition: all 300ms ease-in;
+}
+.card:hover {
+  box-shadow: 0px 0px 0px rgba(107, 107, 107, 0.0);
+}
+.card-img {
+  width: 250px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+  transition: all 300ms ease-in-out;
+}
+.card-img:hover {
+  border-radius: 0%;
+  box-shadow: 2px 3px 3px rgba(107, 107, 107, 0.4);
+}
+.card-title {
+  font-size: 2.35em;
+}
+.card-item {
+  font-size: 1.45em;
+  padding-bottom: 10px;
+}
+.card-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+}
+.banner-title {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 10.6em;
+  color: white;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(44, 44, 44, 0.7);
+  box-shadow: 0px 4px 3px rgba(33, 33, 33, 0.6) inset;
+}
+.banner-img {
+  width: 100%;
+  z-index: -1;
+  filter: blur(4px);
+}
+
+.footer {
+  border-top: 0.5px solid black;
+  box-shadow: 0px -3px 3px rgba(73, 73, 76, 0.4);
+  background: white;
+}
+
+.Subtitle {
+  font-size: 2.3em;
+}
+.Summary {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.65em;
+  width: 75%;
+}
